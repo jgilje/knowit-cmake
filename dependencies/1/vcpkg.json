@@ -1,0 +1,16 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+    "name": "fluxxxuam",
+    "version": "0.1.0",
+    "dependencies": [
+      {
+        "name": "drogon",
+        "default-features": false,
+        "features": [
+          "sqlite3"
+        ],
+        "platform": "!wasm32"
+      },
+      "boost-algorithm"
+    ]
+}
